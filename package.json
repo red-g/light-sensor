@@ -1,0 +1,20 @@
+{
+  "name": "light-sensor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "(cd client && npm run build) && node index.js",
+    "install-all": "(cd client && npm install) && npm install"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "express-ws": "^5.0.2",
+    "serialport": "^10.4.0",
+    "ws": "^8.8.0"
+  }
+}
