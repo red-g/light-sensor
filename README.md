@@ -18,17 +18,17 @@ int dv=250;
 int lightVal;
 
 void setup() {
-// put your setup code here, to run once:
-pinMode(lightPin, INPUT);
-// 9600 is the baud rate
-Serial.begin(9600);
+ // put your setup code here, to run once:
+ pinMode(lightPin, INPUT);
+ // 9600 is the baud rate
+ Serial.begin(9600);
 }
 
 void loop() {
-// put your main code here, to run repeatedly:
-lightVal = analogRead(lightPin);
-Serial.println(lightVal);
-delay(dv);
+ // put your main code here, to run repeatedly:
+ lightVal = analogRead(lightPin);
+ Serial.println(lightVal);
+ delay(dv);
 }
 
 ```
